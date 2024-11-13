@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const SUPABASE_URL = 'https://qkiwwxenhfogpaetmxkk.supabase.co'; // ใส่ URL ของโปรเจกต์ Supabase 
   const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFraXd3eGVuaGZvZ3BhZXRteGtrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzExNTQyODAsImV4cCI6MjA0NjczMDI4MH0.pCGKLBQIr8QhXCTzIs_NjP9McB7sdZeTHo2fp3VW0pI'; // ใส่ Key ของโปรเจกต์ Supabase ของคุณ
 
+  
   const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
   form.addEventListener("submit", async function (event) {
